@@ -4,13 +4,13 @@ class _app {
   id = 0;
   videoElement = null;
   audioElement = null;
-  musicVolume = 0.17;
+  musicVolume = 1;
   musicFadeIn = 200;
   skippedIntro = false;
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['c++ dev', 'very halal', 'weed addict', 'the one and only'];
+  brandDescription = ['c++ dev', 'very halal', 'weed addict', 'the one and only', 'pasta king'];
 
   iconChanger = (urls, delay) => {
     if (!urls) return;
