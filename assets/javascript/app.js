@@ -10,7 +10,7 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['c++ dev', 'very halal', 'weed addict', 'the one and only', 'pasta king'];
+  brandDescription = ['c++', 'c#', 'html', 'the one and only'];
 
   iconChanger = (urls, delay) => {
     if (!urls) return;
